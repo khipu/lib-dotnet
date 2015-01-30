@@ -13,7 +13,7 @@ La documentación de Khipu.com se puede ver desde aquí: [https://khipu.com/page
 Primero bajar y compilar el código fuente o usar la librería desde nuget http://nuget.org.
 Para instalar con nuget:
 
-  Install-Package Khipu.Client
+  Install-Package KhipuClient
 
 Luego debes el namespace Khipu.Apu en el archivo respectivo. En c# se utiliza "using Khipu.Api"
 

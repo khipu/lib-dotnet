@@ -15,7 +15,8 @@ Para instalar con nuget:
 
   Install-Package KhipuClient
 
-Luego debes importar el namespace Khipu.Api en el archivo respectivo. En c# se utiliza "using Khipu.Api;"
+Luego debes importar el namespace Khipu.Api en el archivo respectivo.
+En c# la importacion se hace mediante "using Khipu.Api;"
 
 ## Operaciones
 

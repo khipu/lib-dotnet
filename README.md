@@ -1,5 +1,7 @@
 # khipu
 
+[![Build Status](https://travis-ci.org/khipu/lib-dotnet.png)](https://travis-ci.org/khipu/lib-dotnet)
+
 [khipu - Yo pago, Yo cobro](https://khipu.com)
 
 Libretia .Net para utilizar los servicios de Khipu.com

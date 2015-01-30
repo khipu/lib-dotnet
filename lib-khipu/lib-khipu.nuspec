@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Khipu.Client</id>
+    <version>1.0.0</version>
+    <title>Khipu client library</title>
+    <authors>Khipu</authors>
+    <owners>Khipu</owners>
+    <licenseUrl>https://raw.githubusercontent.com/khipu/lib-dotnet/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/khipu/lib-dotnet</projectUrl>
+    <iconUrl>http://www.gravatar.com/avatar/8e4e636a126998f9886580bfe51cb538.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Khipu client library for use with Khipu services</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>REST payment api khipu</tags>
+    <dependencies>
+	<dependency id="RestSharp" version="105.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+	<file src="bin/Release/lib-khipu.dll" target="lib"/>
+  </files>
+</package>

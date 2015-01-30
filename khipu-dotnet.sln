@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib-khipu", "lib-khipu\lib-khipu.csproj", "{99919F2A-8BFC-4F23-A459-77B5D4C0E1B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unittest", "unittest\unittest.csproj", "{BC24CB42-1B07-416A-BAAA-65203E075E3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99919F2A-8BFC-4F23-A459-77B5D4C0E1B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99919F2A-8BFC-4F23-A459-77B5D4C0E1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99919F2A-8BFC-4F23-A459-77B5D4C0E1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99919F2A-8BFC-4F23-A459-77B5D4C0E1B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC24CB42-1B07-416A-BAAA-65203E075E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC24CB42-1B07-416A-BAAA-65203E075E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC24CB42-1B07-416A-BAAA-65203E075E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC24CB42-1B07-416A-BAAA-65203E075E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

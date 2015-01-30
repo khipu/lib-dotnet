@@ -1,0 +1,8 @@
+language: csharp
+solution: khipu-dotnet.sln
+install:
+  - nuget restore khipu-dotnet.sln
+  - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
+script:
+  - xbuild /p:Configuration=Release khipu-dotnet.sln
+  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./unittest/bin/Release/unittest.dll

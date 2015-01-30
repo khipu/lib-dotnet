@@ -5,11 +5,11 @@ using System.Runtime.CompilerServices;
 // Change them to the values specific to your project.
 
 [assembly: AssemblyTitle ("lib-khipu")]
-[assembly: AssemblyDescription ("")]
+[assembly: AssemblyDescription ("Khipu client library for use with Khipu services witn .net 3.5 or later")]
 [assembly: AssemblyConfiguration ("")]
-[assembly: AssemblyCompany ("")]
-[assembly: AssemblyProduct ("")]
-[assembly: AssemblyCopyright ("alvaro")]
+[assembly: AssemblyCompany ("Khipu")]
+[assembly: AssemblyProduct ("KhipuApi")]
+[assembly: AssemblyCopyright ("khipu")]
 [assembly: AssemblyTrademark ("")]
 [assembly: AssemblyCulture ("")]
 

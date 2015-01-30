@@ -26,9 +26,6 @@ namespace unittest
 			});
 			Console.Out.WriteLine (form);
 			Assert.IsNotNull (form);
-			using (StreamWriter file = new StreamWriter ("/home/alvaro/form.html")) {
-				file.Write (form);
-			}
 		}
 	}
 }

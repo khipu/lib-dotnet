@@ -23,7 +23,7 @@ namespace unittest
 
 		[Test()]
 		public void concatenate_parameters(){
-			Assert.AreEqual ("a=1&b=foo&c=",service.Concatenated (new Dictionary<string, object>{ { "a","1" }, { "b","foo" },{"c",null} }));
+			Assert.AreEqual ("a=1&b=foo&c=&d=true&e=1200300000",service.Concatenated (new Dictionary<string, object>{ { "a","1" }, { "b","foo" },{"c",null}, {"d",true}, {"e",1200300000} }));
 		}
 
 		[Test()]

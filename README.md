@@ -77,7 +77,7 @@ a este cobro. Por cada pago se tiene el ID, el correo asociado y la URL en khipu
         try{
             KhipuApiEndPoint service =  KhipuApi.CreateKhipuApi(ID_DEL_COBRADOR, SECRET_DEL_COBRADOR);
 		    KhipuResponse response = service.CreateEmail(new Dictionary<string, object>{
-				{"subject", "Un cobro desde Ruby"},
+				{"subject", "Un cobro desde .Net"},
 				{"pay_directly", true},
 				{"send_emails", true},
 				{"destinataries", "[ {\"name\": \"Juan Rojo\", \"email\": \"juan.rojo@ejemplo.com\", \"amount\": \"1000\"}, {\"name\": \"Pedro Piedra\", \"email\": \"pedro.piedra@ejemplo.com\", \"amount\": \"1000\"}, { \"name\": \"Ana Soto\", \"email\": \"ana.soto@ejemplo.com\", \"amount\": \"1000\"}]"} 

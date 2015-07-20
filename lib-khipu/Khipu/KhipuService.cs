@@ -95,7 +95,7 @@ namespace Khipu.Api
 				if (i >0) {
 					sb.Append ("&");
 				}
-				sb.Append(entry.Key+ "=" + (entry.Value!=null?entry.Value.ToString():""));
+				sb.Append(entry.Key+ "=" + (entry.Value!=null?(entry.Value.GetType()==typeof(bool)?entry.Value.ToString().ToLower(): entry.Value.ToString()):""));
 				i++;
 			}
 			return sb.ToString();
